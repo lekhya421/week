@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Docker Login') {
             steps {
-                  bat 'docker login -u lekhya2006 -p Lekhya2006'
+                  bat 'docker login -u lekhya2006 -p Lekhya@123'
                 }
             }
         stage('push Docker Image to Docker Hub') {
